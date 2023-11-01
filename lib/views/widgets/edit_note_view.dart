@@ -7,7 +7,9 @@ class EditNoteView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: EditViewBody(),
+      body: EditViewBody(
+          // icon: Icons.abc,
+          ),
     );
   }
 }
